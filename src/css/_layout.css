@@ -1,0 +1,67 @@
+header {
+  height: 89px;
+  padding: 20px 12px;
+  background: var(--Background-components, #bcbfc3);
+}
+
+.title {
+  color: var(--Text-main, #515050);
+  padding: 20px 12px;
+}
+
+.border {
+  display: flex;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid var(--Text-main, #515050);
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.bold {
+  color: var(--Text-main, #515050);
+  margin-bottom: 16px;
+}
+
+.card-text {
+  color: var(--Text-main, #515050);
+  margin-bottom: 4px;
+}
+
+.text {
+  color: var(--Text-main, #515050);
+  margin-bottom: 16px;
+}
+
+.text-long {
+  color: var(--Text-main, #515050);
+  margin-bottom: 24.5px;
+}
+
+.wiki {
+  color: var(--Text-main, #515050);
+}
+
+.popular {
+  color: var(--Text-main, #515050);
+  margin-top: 32px;
+}
+
+.one {
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--Blue, #279ef8);
+}
+
+.button-text {
+  color: var(--Background, #fff);
+  padding-right: 250px;
+}
