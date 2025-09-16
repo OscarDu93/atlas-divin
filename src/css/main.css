@@ -4,3 +4,5 @@
 @import "./modules/_example.css";
 @import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
 @import "./modules/_menu.css";
+@import "./modules/_buttons.css";
+@import "./modules/_cards.css";

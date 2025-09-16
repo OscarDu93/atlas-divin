@@ -18,8 +18,6 @@ header {
   align-self: stretch;
   border-radius: 8px;
   border: 2px solid var(--Text-main, #515050);
-  margin-left: 12px;
-  margin-right: 12px;
 }
 
 .bold {
@@ -49,19 +47,16 @@ header {
 .popular {
   color: var(--Text-main, #515050);
   margin-top: 32px;
+  margin-bottom: 12px;
 }
 
-.one {
+.know {
   display: flex;
-  padding: 12px 8px;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between;
   align-self: stretch;
-  border-radius: 8px;
-  background: var(--Blue, #279ef8);
 }
 
-.button-text {
-  color: var(--Background, #fff);
-  padding-right: 250px;
+.tri {
+  margin-bottom: 40px;
 }

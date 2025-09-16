@@ -1,0 +1,19 @@
+.article-blue {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  border: 2px solid var(--Blue, #279ef8);
+  background: #fff;
+  background: url(../../img/athena.webp) lightgray 50% / cover no-repeat;
+  align-self: stretch;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h3.card-text {
+}

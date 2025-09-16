@@ -1,0 +1,58 @@
+.one {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  padding: 12px 8px;
+  border-radius: 8px;
+  background: var(--Blue, #279ef8);
+  margin-bottom: 20px;
+}
+
+.two {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  padding: 12px 8px;
+  border-radius: 8px;
+  background: var(--Yellow, #f8af27);
+  margin-bottom: 20px;
+}
+
+.three {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  padding: 12px 8px;
+  border-radius: 8px;
+  background: var(--Green, #12965d);
+  margin-bottom: 20px;
+}
+
+.four {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  padding: 12px 8px;
+  border-radius: 8px;
+  background: var(--Red, #f82727);
+}
+
+.button-text {
+  color: var(--Background, #fff);
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+}
