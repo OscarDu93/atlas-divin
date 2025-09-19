@@ -1,19 +1,131 @@
-.article-blue {
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   border-radius: 8px;
+  background-color: #fff;
   overflow: hidden;
+  margin-bottom: 20px;
   position: relative;
-  border-radius: 8px;
+}
+
+.article-blue {
   border: 2px solid var(--Blue, #279ef8);
-  background: #fff;
-  background: url(../../img/athena.webp) lightgray 50% / cover no-repeat;
-  align-self: stretch;
 }
 
 .add {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  position: absolute;
+  right: 5px;
+  top: 10px;
 }
 
-h3.card-text {
+.card-text-blue {
+  display: flex;
+  background-color: #fff;
+  padding: 8px 12px;
+  color: var(--Blue, #279ef8);
+  position: absolute;
+  bottom: 90px;
+}
+
+.space-blue-svg {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.space-blue-text {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 12px;
+  gap: 10px;
+}
+img {
+  align-self: stretch;
+}
+
+.article-red {
+  border: 2px solid var(--Red, #f82727);
+}
+
+.card-text-red {
+  display: flex;
+  background-color: #fff;
+  padding: 8px 12px;
+  color: var(--Red, #f82727);
+  position: absolute;
+  bottom: 90px;
+}
+
+.space-red-svg {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.space-red-text {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 12px;
+  gap: 10px;
+}
+
+.article-yellow {
+  border: 2px solid var(--Yellow, #f8af27);
+}
+
+.card-text-yellow {
+  display: flex;
+  background-color: #fff;
+  padding: 8px 12px;
+  color: var(--Yellow, #f8af27);
+  position: absolute;
+  bottom: 90px;
+}
+
+.space-yellow-svg {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.space-yellow-text {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 12px;
+  gap: 10px;
+}
+
+.article-green {
+  border: 2px solid var(--Green, #12965d);
+}
+
+.card-text-green {
+  display: flex;
+  background-color: #fff;
+  padding: 8px 12px;
+  color: var(--Green, #12965d);
+  position: absolute;
+  bottom: 90px;
+}
+
+.space-green-svg {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.space-green-text {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 12px;
+  gap: 10px;
 }
