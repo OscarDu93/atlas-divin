@@ -10,6 +10,19 @@
   margin-bottom: 20px;
 }
 
+.one:active {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  padding: 12px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--Blue, #279ef8);
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
 .two {
   width: 100%;
   display: flex;
